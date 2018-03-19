@@ -1,0 +1,17 @@
+p{
+    /*字体从前到后查找，取决于客户端上是否安装了对应的额字体*/
+    font-family: Helvetica, "Times New Roman", Times, Serif;
+    font-size: 1.2em;
+}
+
+h1{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    /*font-size: 2em;*/
+}
+p.important {
+    font-size: 1.5em;
+}
+
+h3.bigger {
+    font-size: 2.5em;
+}
