@@ -1,7 +1,9 @@
-<html>
+<html >
 <head>
     <title>Practice</title>
     <link rel="stylesheet" , type="text/css" , href="myweb.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
 </head>
 <body>
 <h1 id="top">Why I love Taos, N.M.</h1>
@@ -52,11 +54,11 @@
         inside the div to display in Arial and its relatives like the heading, you'd have to style these paragraphs
         specifically, with a class of their own.</p>
 </div>
-<img src="http://www.xinhuanet.com/politics/2018lh/2018-03/17/1122551729_15212817485941n.jpg"
-     class="has-own-line smack-in-the-middle"
-     alt="涔犺繎骞�" width="250" , height="300">
-<img src="http://www.xinhuanet.com/politics/2018lh/2018-03/17/1122551729_15212817485941n.jpg"
-     class="has-own-line inset fl" width="125" , height="150">
+<!--<img src="http://www.xinhuanet.com/politics/2018lh/2018-03/17/1122551729_15212817485941n.jpg"-->
+     <!--class="has-own-line smack-in-the-middle"-->
+     <!--alt="习近平" width="250" , height="300">-->
+<a href="http://www.xinhuanet.com"><img src="http://www.xinhuanet.com/politics/2018lh/2018-03/17/1122551729_15212817485941n.jpg"
+     class="has-own-line inset fl" width="125" , height="150"></a>
 <p>Deep-rooted beliefs about the supernatural powers of slow lorises, such as their purported abilities to ward off evil
     spirits or to cure wounds, have popularized their use in traditional medicine. Due in part to the large eyes that
     are an adaptation to their nocturnal lifestyle, they have also been popularized as 'cute' pets in viral videos on
@@ -66,10 +68,33 @@
 <p id="openWindow"> Tell me a little more about this.</p>
 <script>
     document.getElementById("openWindow").onclick = openWin
+
     function openWin() {
         var w = window.open("more-info.html", "", "width=200, height=300, left=300, top=400")
     }
 </script>
-<p>A good place to start your search for learning materials is <a href="http://www.xinhuanet.com" target="_blank">A Smarter Way to Learn</a></p>
+<p>最新选举结果参见<a href="http://www.xinhuanet.com" target="_blank">新华网</a></p>
+<ul>
+    <li>Sun</li>
+    <li>Moon</li>
+</ul>
+<ol>
+    <li>Wash</li>
+    <li>Repeat</li>
+</ol>
+<table>
+    <tr>
+        <th scope="col">Dog</th>
+        <th scope="col">Cat</th>
+    </tr>
+    <tr>
+        <td> Row1, Col1</td>
+        <td> Row1, Col2</td>
+    </tr>
+    <tr>
+        <td> Row2, Col1</td>
+        <td> Row2, Col2</td>
+    </tr>
+</table>
 </body>
 </html>

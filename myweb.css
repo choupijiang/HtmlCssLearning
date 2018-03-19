@@ -106,3 +106,40 @@ img.fl {
 p.clr{
     clear: both;
 }
+
+a {
+    color: #b8860b;
+}
+
+a:hover{
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:active{
+    font-size: 1.25em;
+}
+
+a:visited{
+    color: deeppink;
+}
+
+ul{
+    margin: 0 1.5em 0 1.5em;
+    list-style-type: lower-roman;
+    /*list-style-image: url("");*/
+
+}
+
+ol{
+    margin: 0 1.5em 0 1.5em;
+    list-style-type: upper-alpha;
+}
+
+/*li{*/
+    /*margin: .75em;*/
+/*}*/
+
+ul{
+    list-style-position: inside;
+}
