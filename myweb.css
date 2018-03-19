@@ -10,8 +10,99 @@ h1{
 }
 p.important {
     font-size: 1.5em;
+    font-style: italic;
+    font-weight: bolder;
+    font-kerning: none;
 }
 
 h3.bigger {
     font-size: 2.5em;
+}
+
+.typewriter {
+    font-family: "Courier New", Courier, Monospaced;
+}
+
+.emphasized{
+    font-style: italic;
+}
+
+.standout{
+    color: #cc0000
+}
+
+p.spacey{
+    letter-spacing: -.01em;
+    word-spacing: 1em;
+    line-height: 2.4em;
+}
+
+img.has-own-line {
+    display: block;
+}
+
+h1 {
+    text-align: center;
+}
+
+p{
+    text-align: left;
+    text-indent: 1em;
+}
+
+p.pretty{
+    text-align: justify;
+}
+
+blockquote {
+    font-size: 1em;
+    color: grey;
+}
+
+p.offset {
+    margin: 0 2em 0 1.75em;
+}
+
+p.boxed {
+    border: 5px solid red;
+}
+.enclosed{
+    border: 4px double pink;
+}
+
+h4, p.mid{
+    text-align: left;
+}
+
+#special{
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+div#main{
+    font-size: 1.1em;
+    margin: .1em .2em .2em .2em;
+}
+
+div#midpage {
+    margin: 0 3em 0 3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img.inset {
+    margin-left: 5em;
+}
+img.smack-in-the-middle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.fl {
+    float: left;
+    margin-right: .5em;
+}
+
+p.clr{
+    clear: both;
 }
