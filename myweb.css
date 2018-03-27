@@ -143,3 +143,97 @@ ol{
 ul{
     list-style-position: inside;
 }
+
+th.top-row {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+table.standout{
+    border-left: 5px solid orange;
+    border-right: 5px solid orange;
+}
+
+tr.even {
+    background-color: lavender;
+}
+table#t4 {
+    width: 25%;
+}
+table#t4 td {
+    width: 50%
+}
+table#t4 td {
+    text-align: center;
+}
+tr.even {
+    background-color: lavender;
+}
+input[type="text"] {
+    font-size: 2em;
+    padding: .25em;
+}
+
+
+div#narrow {
+    width: 20%;
+    margin: 0 auto 0 auto;
+}
+div#content {
+    width: 68%;
+    float: left;
+    color: red;
+}
+div#sidebar {
+    width: 29%;
+    float: right;
+}
+div#banner {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: red;
+    color: white;
+    margin-left: 2%;
+}
+
+div#banner img, div#spacer img {
+    float: left;
+    margin: 1em;
+}
+div#banner h2, div#spacer h2 {
+}
+div#spacer {
+    width: 100%;
+    visibility: hidden;
+}
+p.clearFloat {
+    clear: both;
+}
+
+div#navbar {
+    background-color: cadetblue;
+    clear: both;
+    display: inline-block;
+}
+
+div#navbar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+div#navbar ul li{
+    padding: 0 1em .3em 1em;
+}
+
+div#navbar ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: 900;
+    /*text-decoration: none;*/
+}

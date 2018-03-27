@@ -1,4 +1,4 @@
-<html >
+<html>
 <head>
     <title>Practice</title>
     <link rel="stylesheet" , type="text/css" , href="myweb.css">
@@ -6,6 +6,11 @@
 
 </head>
 <body>
+<div id="spacer">
+    <img src="http://www.asmarterwaytolearn.com/loris_50.jpg">
+    <h2>There's nothing slower than a slow loris.</h2>
+    <p class="clearFloat"></p>
+</div>
 <h1 id="top">Why I love Taos, N.M.</h1>
 <h2>The sun is strong and the people are weird.</h2>
 <p>Taos is a small town in the mountains of northern New Mexico. It's cooler
@@ -20,8 +25,9 @@
 <h2 class="typewriter">This heading is in typewriter text.</h2>
 <p class="typewriter">This paragraph is also in typewriter text </p>
 <h2 class="emphasized">Some people italicize and bold too much.</h2>
-<p>I <em>really</em> feel that <span class="emphasized">some</span> writers use <i>way</i> too much bold and an <strong>incredible
-    amount</strong> of italics when they could use <b>far fewer</b> of these text effects.
+<p>I <em>really</em> feel that <span class="emphasized">someeeeeeeee</span> writers use <i>way</i> too much bold and an
+    <strong>incredible
+        amount</strong> of italics when they could use <b>far fewer</b> of these text effects.
 <p>This is going to be a <span class="standout">red letter</span></p>
 <p class="pretty">Justified text has always been used by professional designers. Before word processing came along,
     justification made text look professionally "typeset" since a typewriter couldn't do it. But now that almost any
@@ -54,11 +60,12 @@
         inside the div to display in Arial and its relatives like the heading, you'd have to style these paragraphs
         specifically, with a class of their own.</p>
 </div>
-<!--<img src="http://www.xinhuanet.com/politics/2018lh/2018-03/17/1122551729_15212817485941n.jpg"-->
-     <!--class="has-own-line smack-in-the-middle"-->
-     <!--alt="习近平" width="250" , height="300">-->
-<a href="http://www.xinhuanet.com"><img src="http://www.xinhuanet.com/politics/2018lh/2018-03/17/1122551729_15212817485941n.jpg"
-     class="has-own-line inset fl" width="125" , height="150"></a>
+<img src="http://www.xinhuanet.com/politics/2018lh/2018-03/17/1122551729_15212817485941n.jpg"
+     class="has-own-line smack-in-the-middle"
+     alt="习近平" width="250" , height="300">
+<a href="http://www.xinhuanet.com"><img
+        src="http://www.xinhuanet.com/politics/2018lh/2018-03/17/1122551729_15212817485941n.jpg"
+        class="has-own-line inset fl" width="125" , height="150"></a>
 <p>Deep-rooted beliefs about the supernatural powers of slow lorises, such as their purported abilities to ward off evil
     spirits or to cure wounds, have popularized their use in traditional medicine. Due in part to the large eyes that
     are an adaptation to their nocturnal lifestyle, they have also been popularized as 'cute' pets in viral videos on
@@ -82,19 +89,107 @@
     <li>Wash</li>
     <li>Repeat</li>
 </ol>
-<table>
+<table class="standout">
     <tr>
-        <th scope="col">Dog</th>
-        <th scope="col">Cat</th>
+        <th scope="col" class="top-row">Dog</th>
+        <th scope="col" class="top-row">Cat</th>
     </tr>
     <tr>
-        <td> Row1, Col1</td>
+        <td scope="row"> Row1, Col1</td>
         <td> Row1, Col2</td>
     </tr>
-    <tr>
+    <tr class="even">
         <td> Row2, Col1</td>
         <td> Row2, Col2</td>
     </tr>
 </table>
+
+<table>
+    <tr>
+        <th scope="col"></th>
+        <th scope="col">Dog</th>
+        <th scope="col">Cat</th>
+    </tr>
+    <tr>
+        <th scope="row">Species</th>
+        <td>Canine</td>
+        <td>Feline</td>
+    </tr>
+    <tr>
+        <th scope="row">Sound</th>
+        <td>Bark</td>
+        <td>Meow</td>
+    </tr>
+    <tr>
+        <th scope="row">Immature</th>
+        <td>Puppy</td>
+        <td>Kitten</td>
+    </tr>
+</table>
+<table id="t4">
+    <tr>
+        <td>Films</td>
+        <td>Novels</td>
+    </tr>
+    <tr class="even">
+        <td>Stage productions</td>
+        <td>Collections of short stories</td>
+    </tr>
+</table>
+<form>
+    <fieldset>
+        <legend>First group</legend>
+        <input type="text" name="surname" size="25" maxlength="40">
+        <textarea name="message" rows="8" cols="30"></textarea>
+    </fieldset>
+    <fieldset>
+        <legend>Second group</legend>
+        <label><input type="radio" name="binary" value="yes"> Yes</label>
+        <input type="radio" name="binary" value="no" checked="checked" id="radio-no"> <label for="radio-no">No</label>
+        <br>
+        <input type="checkbox" name="c1" id="f" value="first"> <label for="f">Have first name</label>
+        <input type="checkbox" name="c1" id="l" value="last" checked="checked"> <label for="l">Have last name</label>
+        <br>
+        <select name="current-state">
+            <option value="AL">Alabama</option>
+            <option value="AK">Alaska</option>
+        </select>
+    </fieldset>
+    <input type="submit" value="Send">
+</form>
+
+<!--<div id="content">-->
+<!--<h3>习近平.</h3>-->
+<!--<img src="http://www.xinhuanet.com/politics/2018lh/2018-03/17/1122551729_15212817485941n.jpg" width="125"   height="150" >-->
+<!--</div>-->
+<div id="narrow">
+    <p>In this case, the div has an id that connects it to CSS styling. Alternatively, a div can have a class. It can
+        also have neither an id nor a class, but that's unusual, since the point of a div is normally to create a
+        container that has some particular styling.</p>
+</div>
+<div id="content">
+    <p>This is the larger of the two side-by-side divs.
+        It's actually too wide for easy reading. It would be good to put this div and the one on the right into an outer
+        div that would be only a percentage of the full width of the window. Or you could add margins to both divs.</p>
+</div>
+<div id="sidebar">
+    <p>This is the narrower div. It too could use some whitespace to separate it from the edge of the window.</p>
+</div>
+<div id="banner">
+    <img src="http://www.asmarterwaytolearn.com/loris_50.jpg">
+    <h2>There's nothing slower than a slow loris.</h2>
+    <p class="clearFloat"></p>
+</div>
+
+<!--<p class="clearFloat"></p>-->
+<div id="navbar">
+    <ul>
+        <li><a href="why-choose-us.html">Why Choose Us</a></li>
+        <li><a href="recent-projects.html">Recent Projects</a></li>
+        <li><a href="our-team.html">Our Team</a></li>
+        <li><a href="get-a-quote.html">Get a Quote</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+    </ul>
+</div>
 </body>
 </html>
