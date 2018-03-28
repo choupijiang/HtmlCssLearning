@@ -3,7 +3,7 @@
     <title>Practice</title>
     <link rel="stylesheet" , type="text/css" , href="myweb.css">
     <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-
+    <script src="myjs.js"></script>
 </head>
 <body>
 <div id="spacer">
@@ -191,5 +191,27 @@
         <li class="changeBackColor"><a href="contact-us.html">Contact Us</a></li>
     </ul>
 </div>
+<div id="jslearn">
+    <a href="#" onclick="alert('Hello world')">alter and to the top </a><br>
+    <a href="JavaScript:void(0)" onclick="alert('Hi')">alert</a><br>
+    <input type="button" value="Click" onclick="alert('Hi')"><br>
+    <img id="fruit" src="http://pic32.photophoto.cn/20140704/0035035526987159_b.jpg"
+         onmouseover="src='http://img3.wutongzi.com/2015/5/27/r_0-0_1_8a705262-8304-4fc3-82b4-034562ff70c1.jpg'"
+         onmouseout="src='http://pic32.photophoto.cn/20140704/0035035526987159_b.jpg'"
+         onClick="makeInvisible()"
+         width="200" height="200"><br>
+    <a href="#" onMouseOver="this.stype.color='yellow';">Haha</a>
+    <p id="loris" onMouseover="expand();">Slow Loris: Mouse over for more info</p>
+    Email:<input type="text" size="30" onfocus="this.style.backgroundColor='yellow';"
+                 onblur="this.style.backgroundColor='White';">
+</div>
+
+<p id="slowLoris">
+    Slow lorises are a group of several species of strepsirrhine primates which make up the genus Nycticebus. <a
+        href="javascript:void(0);" onClick="expandLoris();"><em>Click for more.</em> </a>
+</p>
+
+<input type="button" value="Double all paragraph double font size" onClick="doubleSize()">
+
 </body>
 </html>

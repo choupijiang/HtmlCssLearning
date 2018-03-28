@@ -263,3 +263,12 @@ li.changeBackColor:hover{
 li.changeBackColor:active{
     background-color: #cc0000;
 }
+
+div#jslearn {
+    margin-top: 3em;
+    clear: both;
+}
+
+.hidden {
+    display: none;
+}
